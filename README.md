@@ -1,26 +1,40 @@
-# Welcome to withersteen.zapto.org!
+# Welcome to withersteen.zapto.org
 
 ## Introduction
-Dedicated to the study of "Riders of the Purple Sage", by Zane Grey. 
+
+Dedicated to the study of "Riders of the Purple Sage", by Zane Grey.
 
 ## Table of Contents
-- [Read Now!](#read-now)
-- [Study Guides](#stufy-guides)
+
+- [Read Now for FREE!](#read-now)
+- [Study Guides](#study-guides)
 - [Author](#author)
 - [Webmaster](#webmaster)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Read Now  
+
 Read for FREE!  
-This work is in the public domain in the United States.  
+"Riders of the Purple Sage" (1912) by Zane Grey is in the public domain in the United States.  
 Download a copy or read online.  
 
 ## Study Guides
+
 Everything else about Riders of the Purple Sage  
+Links to free or public domain information
 
 ## Author  
+
 About Zane Grey  
 
 ## Webmaster
-Profile and mugshots
+
+Withersteen: Certified Ethical Hacker - Profile & Mugshot  
+
+## License
+
+This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
+
+This work is marked with CC0 1.0 Universal.  
+
+<p xmlns:cc="http://creativecommons.org/ns#" >This work is marked with <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0 Universal<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p>
