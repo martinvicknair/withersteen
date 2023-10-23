@@ -30,6 +30,7 @@ About Zane Grey
 ## Webmaster
 
 Withersteen: Certified Ethical Hacker - Profile & Mugshot  
+
 ![image info](./images/withersteen-mugshot.jpg)
 
 ## License
