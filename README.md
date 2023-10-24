@@ -31,7 +31,7 @@ About Zane Grey
 
 Withersteen: Certified Ethical Hacker - Profile & Mugshot  
 
-![image info](./images/withersteen-mugshot.jpg)
+![Withersteen Mugshot](./images/withersteen-mugshot.jpg "Withersteen Mugshot")
 
 ## License
 
