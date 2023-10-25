@@ -1,0 +1,288 @@
+@charset "UTF-8";
+/* =======================================================
+   Stylesheet created by PHP Web Stat
+   PHP Web Stat v20.0 (https://www.php-web-statistik.de)
+   File-Release-Date: 2023-05-13
+   Copyright 2023 PHP Web Stat
+======================================================= */
+
+/*! bootstrap components */
+.btn {
+  color: #fff;
+  background-color: #337ab7;
+}
+.btn:focus,
+.btn.focus,
+.btn:hover, 
+.btn:active,
+.btn.active,
+.open > .dropdown-toggle.btn {
+  background-color: #286090;
+}
+.btn:active:hover,
+.btn.active:hover,
+.open > .dropdown-toggle.btn:hover,
+.btn:active:focus,
+.btn.active:focus,
+.open > .dropdown-toggle.btn:focus,
+.btn:active.focus,
+.btn.active.focus,
+.open > .dropdown-toggle.btn.focus {
+  background-color: #204d74;
+}
+.input-group-addon {
+  color: #fff;
+  background-color: #337ab7;
+  border: 1px solid #ccc;
+}
+/*! module positive bar */
+.progress-bar-module {
+  background: rgba(29,101,144, .7); /* basic #1d6590 */
+  background-image: linear-gradient(180deg, rgba(255,255,255,.3) 0%, rgba(255,255,255,.1) 50%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.015) 100%);
+}
+.panel {
+  border-color: #1d6590;
+}
+.panel-heading {
+  color: #fff;
+  background-color: #1d6590;
+}
+.panel-footer {
+  background-color: #f5f5f5;
+}
+/*! END bootstrap components */
+
+/*! php web stat */
+/*! login & autologout */
+#login, #autologout {
+  border: 1px solid rgba(29,101,144, .8); /* basic #1d6590 */
+  color: #666;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, rgba(255,255,255, .2) 0%, rgba(200,200,200, .3) 67%, rgba(160,160,160, .3) 68%, rgba(245,245,245, .2) 100%);
+}
+#login .info {
+  color: #333;
+}
+#autologout .info {
+  border: 1px solid rgba(115,91,60, .2);
+  color: #735b14;
+  background-color: rgba(255,243,205, .5);
+}
+#login .data-input, #autologout .data-input {
+  border: 1px solid rgba(29,101,144, .3); /* basic #1d6590 */
+  color: #333;
+  background-color: rgba(160,160,160, .2);
+}
+#login .btn, #login .input-group-addon, #autologout .btn, #autologout .input-group-addon {
+  background-color: #1d6590;
+}
+
+/*! refresh & session box  */
+#refresh, .session_change {
+  border: 1px solid #a1a1a1;
+  background-color: #e7e7e7;
+  background-image: linear-gradient(180deg, #e7e7e7 0%, #fff 100%);
+  box-shadow: 0 0 8px rgba(0,0,0, .6);
+}
+#refresh .header, .session_change .header {
+  color: #fff;
+  background-color: #1d6590;
+}
+#refresh .c-frame {
+  color: #436783;
+  border-left: 1px solid rgba(0,0,0, .2);
+  border-right: 1px solid rgba(255,255,255, .8);
+  border-bottom: 1px solid rgba(255,255,255, .8);
+  border-top: 1px solid rgba(0,0,0, .2);
+  background-color: #e0e0e0;
+  background-color: rgba(0,0,0, .1);
+}
+
+/*! index, archive & sysinfo */
+#body-index, #body-sysinfo {
+  color: #000;
+  background-color: transparent;
+}
+
+/* page header, side, main & footer */
+#header-m, #header-sys {
+  color: #666;
+  background-color: #f6f6f6;
+  box-shadow: 0 0 2px rgba(0,0,0, .8);
+}
+#header-m a, #header-sys a {
+  color: #666;
+}
+#header-m a:hover, #header-sys a:hover {
+  color: #000;
+}
+#header-m .btn, #main-nav .btn {
+  background-color: #1a73e8;
+}
+#header-m .btn:hover, #main-nav .btn:hover {
+  background-color: #1B66C9
+}
+#sidenav {
+  background-color: #f6f6f6;
+}
+#sidenav-navlink li a {
+  color: #666;
+}
+#sidenav-navlink li a:hover {
+  color: #000;
+}
+#sidenav-navlink li.active a {
+  color: #1d6590;
+}
+#sidenav-footer hr {
+  border-top: 1px solid #a7a7a7;
+  color: #666;
+}
+#main-nav, #archive-nav {
+  color: #666;
+  background-color: #f6f6f6;
+  box-shadow: 0 0 2px rgba(0,0,0, .8);
+}
+#main-nav a, #archive-nav a {
+  color: #666;
+}
+#main-nav a:hover, #archive-nav a:hover {
+  color: #000;
+}
+#main-wrapper, #archive-main-wrapper {
+  background-color: transparent;
+}
+#main-footer {
+  border: 1px solid #e6e6e6;
+  background-color: #ededed;
+  color: #666;
+}
+#footer-m, #footer-sys {
+  color: #999;
+  background-color: #f6f6f6;
+  box-shadow: 0 0 2px rgba(0,0,0, .8);
+}
+#footer-m a, #footer-sys a {
+  color: #999;
+}
+#footer-m a:hover, #footer-sys a:hover {
+  color: #000;
+}
+.brand-name {
+  color: #1d6590;
+  text-shadow: 0px 0px 1px rgba(23,64,88, .4);
+}
+.status-admin {
+  color: #1d6590;
+}
+.status-client {
+  color: #666666;
+}
+.status-user {
+  color: #c2c2c2;
+}
+.popover, .tabover {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+.tabover a {
+  color: #666;
+}
+.popover-title {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+}
+.popover.bottom > .arrow {
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0, 0, 0, .25);
+}
+.popover.bottom > .arrow:after {
+  border-bottom-color: #fff;
+}
+#popover-index .title {
+  background-color: #ededed;
+}
+
+/*! archive & sysinfo header */
+.archive-save {
+  color: #666;
+}
+a.archive-save:hover,
+a.archive-save:focus {
+  color: #000;
+}
+
+/*! stat module */
+.module, .sys-module {
+  border: 1px solid #606060;
+}
+.module-header, .sys-module-header {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  background-color: rgba(29,101,144, .7); /* basic #1d6590 */
+  /* overlay filter */
+  background-image: linear-gradient(180deg, rgba(0,0,0, .0) 25%, rgba(0,0,0, .3) 100%);
+}
+.module-header .module-link {
+  color: #fff;
+}
+.module-content {
+  background-color: rgba(29,101,144, .05);  /* basic #1d6590 */
+}
+.module-footer {
+  border-top: 2px solid #fff;
+  color: #000;
+  background-color: #1d6590;
+  /* overlay filter */
+  background-image: linear-gradient(180deg, rgba(255,255,255, .5) 0%, rgba(255,255,255, .7) 100%);
+}
+.module-table {
+  color: #000;
+}
+.module-table th, .sys-table th {
+  border-bottom: 1px solid #8C8C8C;
+  background-color: rgba(0,0,0, .12);
+}
+.display_max_style {
+  color: #c40000;
+  background-color: rgba(0,0,0, .05);
+}
+.display_weekday_6_style {
+  color: #dd8888;
+}
+.display_weekday_7_style {
+  color: #cc2222;
+}
+a.referer:link, a.referer:visited, a.referer:active {
+  color: #0D638A;
+}
+
+/*! sysinfo & setup module */
+.sys-info {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+.sys-result {
+  border-bottom: 1px solid #ddd;
+  background-color: #f0f0f0;
+}
+
+/*! plugin styles */
+div.security-info         {color:#286090;}
+div.security-info .title  {color:#fff; background-color:#286090;}
+div.security-info .reason {color:#333;}
+
+table.plugin th.a {color: #666; background-color: #ededed; border-color: #b5b5b5;}
+table.plugin th.b {color: #fff; background-color: #436783; border-color: #ffffff;}
+table.plugin td.a {background-color: #ffffff; border-color: #7e7e8a;}
+table.plugin tr:hover td.a {background-color: #f0f3f9;}
+table.plugin td.b {background-color: #e2eaf1; border-color: #337ab7;}
+table.plugin tr:hover td.b {background-color: #e5edf4;}
+table.plugin td.c {background-color: #ffffff; border-color: #337ab7;}
+table.plugin td.f {background-color: #e5edf4; border-color: #337ab7;}
+table.plugin td.h, table.plugin th.h     {background-color: #e5edf4; border-color: #337ab7;}
+table.plugin td.h-a, table.plugin th.h-a {background-color: #f0f3f9; border-color: #7e7e8a;}
+table.plugin td.h-b, table.plugin th.h-b {background-color: #e5edf4; border-color: #337ab7;}
+/*! END php web stat */

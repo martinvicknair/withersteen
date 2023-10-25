@@ -1,0 +1,138 @@
+/* =======================================================
+   Stylesheet created by PHP Web Stat
+   PHP Web Stat v11.0 (https://www.php-web-statistik.de)
+   File-Name: fonts.css
+   File-Release-Date: 2022-09-24
+   Copyright 2022 PHP Web Stat
+======================================================= */
+
+/* Titillium Web 700 */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/titillium-web-v15-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/titillium-web-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/titillium-web-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/titillium-web-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/titillium-web-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/titillium-web-v15-latin-700.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+
+/* Material Icons */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/materialicons-regular.woff2') format('woff2'); /* Super Modern Browsers */
+}
+/* onfiguration */
+.material-icons {
+  position: relative;
+  top: 2px;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+/* rules for sizing the icon. */
+.material-icons.md-16 { font-size: 16px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-32 { font-size: 32px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Glyphicons Halflings */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('fonts/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/glyphicons-halflings-regular.woff') format('woff'),/* Modern Browsers */
+       url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); /* Legacy iOS */
+}
+/* configuration */
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-user:before {
+  content: "\e008"; }
+.glyphicon-lock:before {
+  content: "\e033"; }
+.glyphicon-log-in:before {
+  content: "\e161"; }
+.glyphicon-log-out:before {
+  content: "\e163"; }
+.glyphicon-th:before {
+  content: "\e011"; }
+.glyphicon-th-list:before {
+  content: "\e012"; }
+.glyphicon-refresh:before {
+  content: "\e031"; }
+.glyphicon-info-sign:before {
+  content: "\e086"; }
+.glyphicon-download-alt:before {
+  content: "\e025"; }
+.glyphicon-download:before {
+  content: "\e026"; }
+.glyphicon-chevron-up:before {
+  content: "\e113"; }
+.glyphicon-tasks:before {
+  content: "\e137"; }
+.glyphicon-stats:before {
+  content: "\e185"; }
+.glyphicon-print:before {
+  content: "\e045"; }
+.glyphicon-ok:before {
+  content: "\e013"; }
+.glyphicon-ok-sign:before {
+  content: "\e084"; }
+.glyphicon-ok-circle:before {
+  content: "\e089"; }
+.glyphicon-remove:before {
+  content: "\e014"; }
+.glyphicon-remove-sign:before {
+  content: "\e083"; }
+.glyphicon-remove-circle:before {
+  content: "\e088"; }
+.glyphicon-save:before {
+  content: "\e166"; }
+.glyphicon-circle-arrow-right:before {
+  content: "\e131"; }
+.glyphicon-circle-arrow-left:before {
+  content: "\e132"; }
+.glyphicon-calendar:before {
+  content: "\e109"; }
+.glyphicon-floppy-disk:before {
+  content: "\e172"; }
+.glyphicon-folder-close:before {
+  content: "\e117"; }
+.glyphicon-cog:before {
+  content: "\e019"; }
+.glyphicon-check:before {
+  content: "\e067"; }
+.glyphicon-warning-sign:before {
+  content: "\e107"; }
+.glyphicon-envelope:before {
+  content: "\2709"; }
+.glyphicon-new-window:before {
+  content: "\e164"; }

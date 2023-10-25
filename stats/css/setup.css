@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* =======================================================
+   Stylesheet created by PHP Web Stat
+   PHP Web Stat v11.0 (https://www.php-web-statistik.de)
+   File-Name: setup.css
+   File-Release-Date: 2022-09-26
+   Copyright 2022 PHP Web Stat
+======================================================= */
+
+/*----------------------------------------------------- */
+#setup-wrapper {
+  max-width: 960px;
+  min-height: 500px;
+  border: 1px solid #e0e0e0;
+  margin: 10px auto;
+  padding: 8px 5px 10px 5px;
+  border-radius: 8px 8px 0 0; }
+
+#login {
+  position: relative;
+  top: 190px; }
+/*! (sm) Smartphones (landscape) */
+@media (max-width: 767.98px) {
+  #login {top: 10px;}
+}
+
